@@ -4,7 +4,7 @@ export class MainMenuScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("background", "assets/background.JPG");
+    this.load.image("background", "assets/fundo.jpg");
     this.load.image("mapa", "assets/inicial.png");
     this.load.image("novo_jogo", "assets/novo_jogo.jpg");
     this.load.image("opcoes", "assets/opcoes.jpg");
